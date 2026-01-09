@@ -1,0 +1,173 @@
+/*style_11
+azul= #4B83FF
+Branco = #F2F7FF
+rosa = #eb5f82
+1e1e1e59
+
+*/
+
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "BigBlueTerm437 Nerd Font", "fira code semibold", "Font Awesome 5 Free", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    font-family: "BigBlueTerm437 Nerd Font Mono", monospace;
+    background: transparent;
+    color: #eb5f82;
+}
+
+tooltip {
+    border-radius: 0px;
+    background-color: #282828;
+    border: 1px solid #4B83FF;
+    color: #F2F7FF;
+}
+
+/* Modules: Base Style */
+#clock,
+#custom-countdown,
+#custom-todo,
+#backlight,
+#pulseaudio,
+#custom-snip,
+#tray,
+#idle_inhibitor,
+#custom-launcher,
+#cpu,
+#memory,
+#network, 
+#temperature {
+background: #282828;
+color: #eb5f82;
+padding: 3px 13px;
+margin: 4px;
+border-radius: 6px;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Modules: App Launcher Strip */
+#custom-chrome,
+#custom-terminal,
+#custom-code,
+#custom-music,
+#custom-thunar{
+background: #282828;
+padding: 3px 13px;
+margin-top: 4px;
+margin-bottom: 4px;
+margin-right: 2px;
+border-radius: 0;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Modules: Hover Effects */
+#custom-launcher:hover,
+#backlight:hover,
+#custom-todo:hover,
+#clock:hover,
+#custom-countdown:hover,
+#pulseaudio:hover,
+#custom-clip:hover,
+#custom-snip:hover,
+#custom-chrome:hover,
+#custom-terminal:hover,
+#custom-code:hover,
+#custom-taskmanager:hover,
+#custom-galculator:hover,
+#custom-music:hover,
+#custom-thunar:hover,
+#tray:hover,
+#idle_inhibitor:hover,
+#custom-power:hover,
+#custom-reboot:hover,
+#custom-quit:hover,
+#custom-lock:hover,
+#workspace:hover, 
+#mpris:hover,
+#cpu:hover, 
+#memory:hover, 
+#network:hover  {
+background: #4B83FF;
+color: #F2F7FF;
+}
+
+/* Modules: Specific Styles */
+#custom-countdown,
+#custom-todo,
+#clock {
+background: #282828;
+color: #F2F7FF;
+font-weight: bold;      
+}
+
+#pulseaudio.muted {
+background: #4B83FF;
+color: #F2F7FF;
+}
+
+#keyboard-state {
+    background: transparent;
+}
+
+#keyboard-state label.locked {
+background: #4B83FF;
+color: #F2F7FF; 
+padding: 0px 12px;
+margin: 4px 0px;
+border-radius: 6px;
+}
+
+#taskbar {
+background: #282828;
+padding: 0 5px;
+margin: 4px;
+border-radius: 6px;
+}
+
+#taskbar button {
+background: transparent;
+padding: 0 8px;
+border-bottom: 3px solid transparent;
+transition: border-bottom-color 0.3s ease-out;
+}
+
+#taskbar button:hover {
+border-bottom-color: #eb5f82;
+}
+
+#taskbar button.active {
+border-bottom-color: #4B83FF;
+}
+#mpris {
+	background-color: #282828;
+    color: #eb5f82;
+	padding: 6px;
+	margin: 4px;
+	border-radius: 6px;
+}
+
+#cpu, #memory, #network {
+	background-color: #282828;
+    color: #F2F7FF;
+	padding: 6px;
+	margin: 4px;
+	border-radius: 6px;
+}
+#workspaces button {
+    background: #282828;
+    color: #eb5f82;
+    padding: 3px 10px;
+    margin: 4px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#workspaces button:hover {
+    background: #4B83FF;
+    color: #F2F7FF;
+}
