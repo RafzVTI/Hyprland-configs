@@ -1,0 +1,60 @@
+/*style_11
+azul= #4B83FF
+Branco = #F2F7FF
+rosa = #eb5f82
+1e1e1e59
+*/
+
+* {
+  font-family: "BigBlueTerm437 Nerd Font", "Font Awesome 5 Free", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  border: none;
+}
+
+#window {
+background-color: transparent;
+}
+
+#outer-box {
+background-color: #282828;
+border: 1px solid #eb5f82;
+border-radius: 12px;
+margin: 10px;
+padding: 15px;
+}
+
+#input {
+background-color: #282828;
+color: #F2F7FF;
+padding: 8px 12px;
+margin-bottom: 10px;
+border-radius: 6px;
+}
+
+#input:focus {
+box-shadow: 0 0 0 1px #eb5f82;
+}
+
+#scroll {
+margin-top: 5px;
+}
+
+#entry {
+padding: 8px;
+border-radius: 6px;
+color: #F2F7FF;
+background-color: transparent;
+}
+
+#entry:selected {
+background-color: #eb5f82;
+}
+
+#text:selected {
+color: #F2F7FF;
+}
+
+#text {
+padding: 0px 5px;
+}
+
